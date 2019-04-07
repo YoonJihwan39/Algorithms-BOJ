@@ -19,23 +19,23 @@ int main() {
 		}
 		else if (input == "pop") {
 			if (S.empty())
-				cout << -1 << endl;
+				cout << -1 << '\n';
 			else {
-				cout << S.top() << endl;
+				cout << S.top() << '\n';
 				S.pop();
 			}
 		}
 		else if (input == "size") {
-			cout << S.size() << endl;
+			cout << S.size() << '\n';
 		}
 		else if (input == "empty") {
-			cout << S.empty() << endl;
+			cout << S.empty() << '\n';
 		}
 		else if (input == "top") {
 			if (S.empty())
-				cout << -1 << endl;
+				cout << -1 << '\n';
 			else
-				cout << S.top() << endl;
+				cout << S.top() << '\n';
 		}
 	}
 	return 0;
