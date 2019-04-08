@@ -41,6 +41,6 @@ int main() {
 		int one = 0;
 		cin >> N;
 		fibonacci(N, zero, one);
-		cout << zero << ' ' << one << endl;
+		cout << zero << ' ' << one << '\n';
 	}
 }
