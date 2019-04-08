@@ -28,7 +28,7 @@ int main()
 				}
 			}
 		}
-		cout << sum * 10000 << endl;
+		cout << sum * 10000 << '\n';
 	}
 	return 0;
 }
