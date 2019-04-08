@@ -58,7 +58,7 @@ int main() {
 		cin >> object;
 		//입력끝
 
-		cout << ACM_craft(object, N, build_time, sum_time, requirements) << endl;
+		cout << ACM_craft(object, N, build_time, sum_time, requirements) << '\n';
 
 		//메모리 해제
 		delete[] build_time;
