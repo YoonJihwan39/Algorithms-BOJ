@@ -2,8 +2,6 @@
 #include<stack>
 using namespace std;
 
-int array[1001];
-
 int main() {
     int N;
     int location;
@@ -12,6 +10,7 @@ int main() {
     int area = 0;
     int current_height;
     stack<int> top_stack;
+    
     cin >> N;
 
     for(int i = 0; i < N; i++){
