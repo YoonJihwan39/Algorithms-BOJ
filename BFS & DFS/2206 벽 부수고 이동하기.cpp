@@ -34,9 +34,6 @@ int bfs(){
             if(nx < 0 || ny < 0 || nx >= M || ny >= N){
                 continue;
             }
-            if(nx == M-1 && ny == N-1){
-                return current.dist+1;
-            }
             if(map[ny][nx] == '0' && visited[ny][nx][current.hammer] == 0){
                 q.push({nx, ny, current.dist+1, current.hammer});
                 visited[ny][nx][current.hammer] = 1;
